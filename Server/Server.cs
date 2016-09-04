@@ -7,7 +7,7 @@ using System.Text;
 namespace BasicTCPServer {
     public static class Server {
         public const int port = 15530;
-        public const string checkText = "RBA";
+        public const string checkText = "key";
         public const char EOP = '\0';
 
         public static Socket openSocket;
